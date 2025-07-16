@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px 0;
+    background-color: #000;
+    color: white;
+    text-align: center;
+p {
+    text-align: center;
+}
+
+.logo {
+    filter: brightness(0) invert(1) ;
+    width: 110px;
+    padding-top: 20px;
+}
+} 
