@@ -1,0 +1,40 @@
+.collapse-section {
+    width: 80%;
+}
+
+.collapse-content p {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.collapse {
+    color: white;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    margin: 20px 0;
+    overflow: hidden;
+
+.collapse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #FF6060;
+    padding-left: 15px;
+    padding-right: 15px;
+
+.arrow {
+    transition: transform 0.3s ease;
+
+&.open {
+    transform: rotate(180deg);
+}
+        }
+                }
+
+    .collapse-content {
+    padding: 15px;
+    }
+
+}
