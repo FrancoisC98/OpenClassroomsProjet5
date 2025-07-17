@@ -3,7 +3,6 @@ import "../styles/Collapse.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons"
 
-
 function Collapse({ title, content}) {
     const [isOpen, setIsOpen] = useState(false)
     const toggleCollapse = () => {

@@ -1,0 +1,26 @@
+.error-container {
+  text-align: center;
+  margin: 5rem auto;
+  color: #ff6060;
+
+  .error-title {
+    margin: 0;
+    font-size: 15rem;
+    font-weight: bold;
+  }
+
+  .error-message {
+    font-size: 2rem;
+    margin-bottom: 6rem;
+  }
+
+  .error-link {
+    color: black;
+    text-decoration: underline;
+    font-size: 1.2rem;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
