@@ -1,5 +1,9 @@
 .collapse-section {
     width: 80%;
+
+    @media (max-width: 550px) {
+            width: 100%;
+}
 }
 
 .collapse-content p {

@@ -1,22 +1,28 @@
-.logement-page {
-  padding-left: 20px;
-}
- 
- 
- .logement-title {
+  .logement-title {
   color: #FF6060;
   font-weight: 400;
+
+      @media (max-width: 550px) {
+        font-size: 1rem;
+      }
+
 }
 
   .logement-location {
   font-weight: 400;
+
+  @media (max-width: 550px) {
+  font-size: 0.8rem;
+
+      }
 }
 
 .tags {
   display: flex;
-  gap: 30px;
-
+  gap: 3%;
+  align-items: center;
 }
+
 .tag {
   color: white;
   font-weight: 400;
@@ -26,20 +32,48 @@
   padding-right: 30px;
   padding-left: 30px;
   border-radius: 50px;
+
+    @media (max-width: 550px) {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.6rem;
+  }
 }
 
 .logement-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.logement-top-header {
+  width: 100%;
+}
+
+.host-img {
+  border-radius: 50px;
+  width: 7vw;
 }
 
 .host-picture {
   display: flex;
   flex-direction: column;
-  border-radius: 50px;
-  width: 80px;
+  width: 100%;
+
+
+   @media (max-width: 768px) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  } 
 }
+
 .host-name {
   color: #FF6060;
   font-weight: 700;
@@ -54,7 +88,7 @@
 
 .rating {
   color: #FF6060;
-  font-size: 3rem;
+  font-size: 4.5vw;
   display: flex;
   justify-content: flex-end;
 }
@@ -65,7 +99,17 @@
   justify-content: space-between;
   margin-top: 20px;
 
+  @media (max-width:520px) {
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+  }
+  
+
   .collapse {
     flex: 1;
   }
+
+
 }
+

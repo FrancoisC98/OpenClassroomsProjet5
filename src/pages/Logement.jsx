@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
 import logements from '../data/logements.json';
 import Slideshow from '../components/Slideshow';
 import Tags from '../components/Tags';
@@ -14,7 +14,7 @@ function Logement() {
 
 
   if (!logement) {
-    return <h2>Logement introuvable ❌</h2>
+    return <Navigate to="/error" replace />
   }
 
   return (
@@ -23,7 +23,7 @@ function Logement() {
      
      <div className='logement-page'>
      <div className='logement-header'>
-      <div>
+      <div className='logement-top-header'>
         <h1 className='logement-title'>{logement.title}</h1>
         <p className='logement-location'>{logement.location}</p>
         <Tags tags={logement.tags} />
