@@ -18,7 +18,7 @@ function Logement() {
   }
 
   return (
-     <div>
+     <div className='logement-fade-in'>
       <Slideshow pictures={logement.pictures}/>
      
      <div className='logement-page'>
