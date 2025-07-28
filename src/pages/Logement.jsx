@@ -5,7 +5,7 @@ import Tags from '../components/Tags';
 import Host from '../components/Host';
 import Rating from '../components/Rating';
 import Collapse from '../components/Collapse';
-import '../styles/logement.scss'
+import '../styles/Logement.scss'
 
 
 function Logement() {

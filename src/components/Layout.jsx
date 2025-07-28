@@ -11,8 +11,8 @@ function Layout({ children }) {
         <div className="layout-wrapper">
         <Header />
         <main><Outlet /></main>
-        <Footer />
         </div>
+        <Footer />
         </>
     );
 }
