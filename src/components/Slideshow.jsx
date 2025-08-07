@@ -20,8 +20,8 @@ function Slideshow ({ pictures }) {
         <div className="slideshow">
             {length > 1 && (
                 <>
-                <button className="slideshow-arrow slideshow-arrow-left" onClick={goPrev}><ChevronLeft style={{ width: "clamp(24px, 5vw, 100px)", height: "clamp(24px, 5vw, 100px)" }}/></button>
-                <button className="slideshow-arrow slideshow-arrow-right" onClick={goNext}><ChevronRight style={{ width: "clamp(24px, 5vw, 100px)", height: "clamp(24px, 5vw, 100px)" }}/></button>
+                <button className="slideshow-arrow slideshow-arrow-left" onClick={goPrev}><ChevronLeft style={{width: "clamp(40px, 7vw, 100px)", height: "clamp(35px, 7vw, 100px)"}}/></button>
+                <button className="slideshow-arrow slideshow-arrow-right" onClick={goNext}><ChevronRight style={{width: "clamp(40px, 7vw, 100px)", height: "clamp(35px, 7vw, 100px)"}}/></button>
                 </>
             )}
             <img src={pictures[currentIndex]} alt={`Slide ${currentIndex + 1}`} className="slide-image" />
